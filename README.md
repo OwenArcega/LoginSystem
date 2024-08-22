@@ -1,5 +1,5 @@
 -- ¿En qué consiste el proyecto? --
-Es un sistema de inicio de sesión utilizando NodeJs, Express, DotEnv, JSONWebToken, UUID, bcryptJS y Cors. Esta RestApi se conecta a una base de datos local por medio de variables de entorno, a partir de ahí, podemos crear distintos usuarios para utilizar los servicios de la API. Cuando se ingresa a la aplicación por usuaio, se genera un token que se utiliza para proteger los datos y servicios.
+Es un sistema de inicio de sesión utilizando NodeJs, Express, DotEnv, JSONWebToken, UUID, bcryptJS y Cors. Esta RestApi se conecta a una base de datos local por medio de variables de entorno, a partir de ahí, podemos crear distintos usuarios para utilizar los servicios de la API. Cuando se ingresa a la aplicación por usuario, se genera un token que se utiliza para proteger los datos y servicios.
 
 -- ¿Qué es la librería UUID? --
 Es una librería que provee distintas formas de crear y manipular identificadores únicos universales (Universal Unique Identifiers - UUID). Esta librería es recomendable utilizarla en vez de un campo autonumerico en una base de datos en las siguientes circunstancias:
